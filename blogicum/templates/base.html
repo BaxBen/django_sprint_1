@@ -1,0 +1,12 @@
+<!DOCTYPE html> 
+<html lang="ru"> 
+    {% include "includes/head.html" %}
+    <title>{% block title %}name_sait{% endblock %}</title>
+  <body>
+    {% include "includes/header.html" %}
+    <main>
+      {% block content %}content{% endblock %}
+    </main>
+    {% include "includes/footer.html" %}
+  </body>
+</html>
